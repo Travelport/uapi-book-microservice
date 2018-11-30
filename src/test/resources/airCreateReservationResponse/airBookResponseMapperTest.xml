@@ -1,0 +1,63 @@
+<universal:AirCreateReservationRsp xmlns:universal="http://www.travelport.com/schema/universal_v45_0" xmlns:common_v45_0="http://www.travelport.com/schema/common_v45_0"     xmlns:air="http://www.travelport.com/schema/air_v45_0"  TransactionId="18949BD20A07643BED7F90DBFB29F250" ResponseTime="3593">
+	<universal:UniversalRecord LocatorCode="VB0S7C" Version="0" Status="Active">
+		<common_v45_0:BookingTraveler Key="ugnOYc7Q2BKAGz5DAAAAAA==" ElStat="A">
+			<common_v45_0:BookingTravelerName First="John" Last="Smith"/>
+			<common_v45_0:PhoneNumber Key="ugnOYc7Q2BKAHz5DAAAAAA==" Type="None" Location="DEN" CountryCode="1" Number="1234567" AreaCode="303" ElStat="A">
+				<common_v45_0:ProviderReservationInfoRef Key="ugnOYc7Q2BKAPz5DAAAAAA=="/>
+			</common_v45_0:PhoneNumber>
+			<common_v45_0:SSR Key="ugnOYc7Q2BKAIz5DAAAAAA==" Status="HK" Type="DOCS" FreeText="////0000000/M//SMITH/JOHN -1SMITH/JOHN" Carrier="AA" ProviderReservationInfoRef="ugnOYc7Q2BKAPz5DAAAAAA==" ElStat="A"/>
+		</common_v45_0:BookingTraveler>
+		<common_v45_0:ActionStatus Key="ugnOYc7Q2BKAJz5DAAAAAA==" Type="ACTIVE" ProviderReservationInfoRef="ugnOYc7Q2BKAPz5DAAAAAA==" ProviderCode="1G" ElStat="A"/>
+		<universal:ProviderReservationInfo Key="ugnOYc7Q2BKAPz5DAAAAAA==" ProviderCode="1G" LocatorCode="C7NB42" CreateDate="2018-11-15T18:14:15.528+00:00" ModifiedDate="2018-11-15T18:14:15.528+00:00" HostCreateDate="2018-11-15" OwningPCC="6G2D"/>
+		<air:AirReservation xmlns:air="http://www.travelport.com/schema/air_v45_0" xmlns:common_v45_0="http://www.travelport.com/schema/common_v45_0"  LocatorCode="PAFKAV" CreateDate="2018-11-15T18:14:14.970+00:00" ModifiedDate="2018-11-15T18:14:15.528+00:00">
+			<common_v45_0:SupplierLocator SupplierCode="AA" SupplierLocatorCode="CZLXMA" ProviderReservationInfoRef="ugnOYc7Q2BKAPz5DAAAAAA==" CreateDateTime="2018-11-15T18:14:00.000+00:00"/>
+			<common_v45_0:BookingTravelerRef Key="ugnOYc7Q2BKAGz5DAAAAAA=="/>
+			<common_v45_0:ProviderReservationInfoRef Key="ugnOYc7Q2BKAPz5DAAAAAA=="/>
+			<air:AirSegment Key="ugnOYc7Q2BKABz5DAAAAAA==" Group="0" Carrier="AA" CabinClass="Economy" FlightNumber="416" ProviderCode="1G" Origin="DEN" Destination="LAX" DepartureTime="2019-03-06T19:59:00.000-07:00" ArrivalTime="2019-03-06T21:22:00.000-08:00" TravelTime="143" Distance="848" ClassOfService="K" ETicketability="Yes" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="ugnOYc7Q2BKAPz5DAAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" ElStat="A">
+				<air:FlightDetails Key="ugnOYc7Q2BKARz5DAAAAAA==" Origin="DEN" Destination="LAX" DepartureTime="2019-03-06T19:59:00.000-07:00" ArrivalTime="2019-03-06T21:22:00.000-08:00" FlightTime="143" TravelTime="143" Equipment="319" AutomatedCheckin="false" ElStat="A"/>
+				<common_v45_0:SellMessage>*503 18*</common_v45_0:SellMessage>
+			</air:AirSegment>
+			<air:AirSegment Key="gULi+U7Q2BKAZOlFCAAAAA==" Group="1" Carrier="AA" CabinClass="Economy" FlightNumber="416" ProviderCode="1G" Origin="LAX" Destination="DEN" DepartureTime="2019-03-23T15:45:00.000-07:00" ArrivalTime="2019-03-23T18:59:00.000-06:00" TravelTime="134" ClassOfService="K" ETicketability="Yes" Status="HK" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="ugnOYc7Q2BKAPz5DAAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" ElStat="A">
+				<air:FlightDetails Key="ugnOYc7Q2BKATz5DAAAAAA==" Origin="LAX" Destination="DEN" DepartureTime="2019-03-23T15:45:00.000-07:00" ArrivalTime="2019-03-23T18:59:00.000-06:00" FlightTime="134" TravelTime="134" Equipment="319" AutomatedCheckin="false" ElStat="A"/>
+				<common_v45_0:SellMessage>*503 18*</common_v45_0:SellMessage>
+			</air:AirSegment>
+			<air:AirPricingInfo Key="ugnOYc7Q2BKAFz5DAAAAAA==" TotalPrice="GBP348.40" BasePrice="USD413.02" ApproximateTotalPrice="GBP348.40" ApproximateBasePrice="GBP314.00" EquivalentBasePrice="GBP314.00" Taxes="GBP34.40" LatestTicketingTime="2018-11-16T23:59:00.000+00:00" TrueLastDateToTicket="2018-11-16T23:59:00.000+00:00" PricingMethod="Guaranteed" Refundable="true" Exchangeable="true" IncludesVAT="false" ETicketability="Yes" ProviderCode="1G" ProviderReservationInfoRef="ugnOYc7Q2BKAPz5DAAAAAA==" AirPricingInfoGroup="1" PricingType="StoredFare" ElStat="A" FareCalculationInd="G">
+				<air:FareInfo Key="ugnOYc7Q2BKAEz5DAAAAAA==" FareBasis="K0AHZRN2" PassengerTypeCode="ADT" Origin="DEN" Destination="LAX" EffectiveDate="2018-11-15T00:00:00.000+00:00" Amount="USD413.02" PseudoCityCode="6G2D" ElStat="A">
+					<air:BaggageAllowance>
+						<air:NumberOfPieces>0</air:NumberOfPieces>
+					</air:BaggageAllowance>
+				</air:FareInfo>
+				<air:BookingInfo BookingCode="K" CabinClass="Economy" FareInfoRef="ugnOYc7Q2BKAEz5DAAAAAA==" SegmentRef="ugnOYc7Q2BKABz5DAAAAAA=="/>
+				<air:TaxInfo Category="AY" Amount="GBP4.30" Key="ugnOYc7Q2BKAWz5DAAAAAA=="/>
+				<air:TaxInfo Category="US" Amount="GBP23.60" Key="ugnOYc7Q2BKAXz5DAAAAAA=="/>
+				<air:TaxInfo Category="XF" Amount="GBP3.40" Key="ugnOYc7Q2BKAYz5DAAAAAA==">
+					<common_v45_0:TaxDetail Amount="USD4.50" OriginAirport="DEN"/>
+				</air:TaxInfo>
+				<air:TaxInfo Category="ZP" Amount="GBP3.10" Key="ugnOYc7Q2BKAZz5DAAAAAA==">
+					<common_v45_0:TaxDetail Amount="USD4.10" OriginAirport="DEN"/>
+				</air:TaxInfo>
+				<air:FareCalc>DEN AA LAX 413.02K0AHZRN2 USD413.02END</air:FareCalc>
+				<air:PassengerType Code="ADT" BookingTravelerRef="ugnOYc7Q2BKAGz5DAAAAAA==">
+					<air:FareGuaranteeInfo GuaranteeDate="2018-11-15" GuaranteeType="Guaranteed"/>
+				</air:PassengerType>
+				<common_v45_0:BookingTravelerRef Key="ugnOYc7Q2BKAGz5DAAAAAA=="/>
+				<air:ChangePenalty PenaltyApplies="Anytime">
+					<air:Percentage>0.00</air:Percentage>
+				</air:ChangePenalty>
+				<air:CancelPenalty PenaltyApplies="Anytime">
+					<air:Percentage>0.00</air:Percentage>
+				</air:CancelPenalty>
+				<air:TicketingModifiersRef Key="ugnOYc7Q2BKAVz5DAAAAAA=="/>
+			</air:AirPricingInfo>
+			<air:TicketingModifiers PlatingCarrier="AA" Key="ugnOYc7Q2BKAVz5DAAAAAA==" ElStat="A">
+				<air:DocumentSelect IssueElectronicTicket="true"/>
+			</air:TicketingModifiers>
+		</air:AirReservation>
+		<common_v45_0:AgencyInfo>
+			<common_v45_0:AgentAction ActionType="Created" AgentCode="AGENT" BranchCode="BRANCH" AgencyCode="CODE" EventTime="2018-11-15T18:14:12.308+00:00"/>
+		</common_v45_0:AgencyInfo>
+		<common_v45_0:FormOfPayment Key="PDz8y7xu4hGdeB/wYIhwmw==" Type="Check" Reusable="false" ProfileKey="kigS4p3mTpuYlJhQBbGrmA==" ElStat="A">
+			<common_v45_0:ProviderReservationInfoRef Key="ugnOYc7Q2BKAPz5DAAAAAA=="/>
+		</common_v45_0:FormOfPayment>
+	</universal:UniversalRecord>
+</universal:AirCreateReservationRsp>
